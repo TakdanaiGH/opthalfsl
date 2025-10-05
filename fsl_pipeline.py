@@ -34,7 +34,7 @@ if __name__ == "__main__":
     # --- Parameters ---
     image_size = 384
     N_WAY = 2
-    N_SHOT = 3
+    N_SHOT = 3 # sample per class
     N_QUERY = 3
     N_TRAINING_EPISODES = 500 # Train
     N_EVALUATION_TASKS = 100 # Test
